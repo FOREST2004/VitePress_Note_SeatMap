@@ -1,6 +1,8 @@
-# 1. Vấn đề các hàng bị so le, hàng chẵn và hàng lẻ bị so le, cần chỉnh căn đều về 1 phía
+# Problem Solving
 
-## Mô tả vấn đề
+## 1. Vấn đề các hàng bị so le, hàng chẵn và hàng lẻ bị so le, cần chỉnh căn đều về 1 phía
+
+### Mô tả vấn đề
 
 ::: warning VẤN ĐỀ
 Hàng 2 và 4 đang bị lệch về phía trái, cần chỉnh sửa về phía phải giống với hàng 1,3,5.
@@ -12,7 +14,7 @@ Hàng 2 và 4 đang bị lệch về phía trái, cần chỉnh sửa về phía
 
 ---
 
-## Solution
+### Solution
 
 ![alt text](/image_guides/image-1.png)
 
@@ -28,9 +30,9 @@ Nên hãy copy ra vùng trắng khác để chỉnh sửa, cách chọn nhiều 
 
 ---
 
-## Cách chỉnh sửa vấn đề so le
+### Cách chỉnh sửa vấn đề so le
 
-### Bước 1: Chọn điểm tọa độ
+#### Bước 1: Chọn điểm tọa độ
 
 ::: details Chi tiết
 Tính tọa độ trung điểm của 2 hàng 1 và 3 (tọa độ x và y).
@@ -40,7 +42,7 @@ Tính tọa độ trung điểm của 2 hàng 1 và 3 (tọa độ x và y).
 ![alt text](/image_guides/Screenshot%202025-12-19%20163029.jpg)
 :::
 
-### Bước 2: Tính toán tọa độ trung điểm
+#### Bước 2: Tính toán tọa độ trung điểm
 
 ::: details Chi tiết
 Vì đang các hàng đang là hàng nghiêng từ trái sang phải, nên tất cả quá trình chỉnh sửa hãy luôn để ý chỗ lập phương 3x3 đó luôn đảm bảo chọn được điểm tọa độ ở phía dưới bên phải của hàng.
@@ -58,7 +60,7 @@ A(x1, y1), B(x2, y2)
 
 :::
 
-### Bước 3: Áp dụng tọa độ
+#### Bước 3: Áp dụng tọa độ
 
 ::: details Chi tiết
 Sau khi tính xong, chọn hàng 2 và gán tọa độ `(x3, y3)` đó vào hàng 2.
@@ -80,17 +82,17 @@ Khi thực hiện với hàng màu vàng thứ 2, thì bạn sẽ lấy hàng m�
 
 ![alt text](/image_guides/image-4.png)
 
-### Kết quả cuối cùng
+#### Kết quả cuối cùng
 
 ![alt text](/image_guides/image-5.png)
 
 ---
 
-## Cách gán về vị trí cũ
+### Cách gán về vị trí cũ
 
 Như đã nói ở phần đầu, ta copy ra vùng trắng rỗng rãi khác để chỉnh sửa sau đó gán lại vào vị trí cũ sau.
 
-### Bước 1: Xác định vùng cần thay thế
+#### Bước 1: Xác định vùng cần thay thế
 
 ::: details Chi tiết
 Vùng sơ đồ ghế ở vị trí cũ (chưa chỉnh sửa):
@@ -100,7 +102,7 @@ Vùng sơ đồ ghế ở vị trí cũ (chưa chỉnh sửa):
 Vùng khoanh đỏ là vùng mình cần thay thế kết quả chỉnh sửa mới vô, vì chỗ lập phương 3x3 đang là vị trí dưới bên phải, nên ta chỉ cần chọn hàng màu xanh lá 1 và 5 rồi copy tọa độ x và y ra note. Sau đó bạn xóa các ghế ở vùng đỏ đó đi.
 :::
 
-### Bước 2: Gán kết quả mới vào
+#### Bước 2: Gán kết quả mới vào
 
 ::: details Chi tiết
 Tiếp theo bạn tô tất cả ghế ở đã chỉnh sửa và cập nhật phần lập phương và tọa độ x, y theo như trong note là được.
@@ -114,7 +116,7 @@ Hãy xóa cái cũ trước khi gán cái mới đã chỉnh sửa nhé, vì n�
 
 ---
 
-## Xuất file SVG
+### Xuất file SVG
 
 Cuối cùng là xuất file SVG:
 

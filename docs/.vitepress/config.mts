@@ -9,7 +9,7 @@ export default defineConfig({
       { text: "Documentation", link: "/developer-guide/quickstart/" },
     ],
 
-    outline: [1, 2],
+    outline: [2, 3],
 
     sidebar: {
       "/developer-guide/": [
