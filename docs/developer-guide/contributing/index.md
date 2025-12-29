@@ -1,18 +1,3 @@
 # Contributing
 
-Hướng dẫn đóng góp cho dự án.
-
-## Quy trình đóng góp
-
-1. Fork repository
-2. Tạo branch mới
-3. Thực hiện thay đổi
-4. Tạo pull request
-
-## Code Style
-
-Tuân thủ các quy tắc code style của dự án.
-
-## Testing
-
-Đảm bảo tất cả tests pass trước khi submit.
+Quy định cách **viết, cập nhật và bảo trì tài liệu**, bao gồm nguyên tắc phân loại nội dung, phạm vi chỉnh sửa cho từng khu vực và yêu cầu tài liệu khi thực hiện thay đổi lớn.

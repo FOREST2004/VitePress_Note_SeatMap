@@ -1,7 +1,4 @@
 # Reference
 
-Tài liệu tham khảo API và các tài nguyên kỹ thuật.
-
-## API Reference
-
-Chi tiết về các API có sẵn.
+Tài liệu **tra cứu chính xác** (lookup) về service, API, event, cấu hình và tích hợp bên ngoài.\
+Phần này mang tính mô tả, không giải thích dài dòng và được sử dụng khi developer cần thông tin cụ thể, nhanh và đáng tin cậy.

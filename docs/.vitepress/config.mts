@@ -1,20 +1,20 @@
 import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Guide SeatMap",
   description: "A VitePress Site",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Developer Guide", link: "/developer-guide/quickstart/" },
+      { text: "Documentation", link: "/developer-guide/quickstart/" },
     ],
+
+    outline: [1, 2],
 
     sidebar: {
       "/developer-guide/": [
         {
-          text: "Developer Guide",
+          text: "Documentation",
           items: [
             { text: "Quickstart", link: "/developer-guide/quickstart/" },
             { text: "Concepts", link: "/developer-guide/concepts/" },

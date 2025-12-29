@@ -1,9 +1,9 @@
 # Guides
 
-Các hướng dẫn chi tiết cho nhà phát triển.
+Các hướng dẫn **task-driven** phục vụ công việc hằng ngày của developer, như phát triển tính năng, tích hợp, debug và xử lý sự cố.
 
 ## Danh sách hướng dẫn
 
-- [Hướng dẫn 1](./problem-solving/) - Giải quyết vấn đề phổ biến
-- Hướng dẫn 2
-- Hướng dẫn 3
+- [Problem Solving Guide](./problem-solving/)
+- Hướng dẫn
+- Hướng dẫn

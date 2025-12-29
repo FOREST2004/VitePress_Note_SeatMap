@@ -1,7 +1,3 @@
 # Decisions
 
-Các quyết định kỹ thuật quan trọng trong dự án.
-
-## Architecture Decision Records (ADR)
-
-Ghi chú các quyết định về kiến trúc và công nghệ.
+Lưu trữ các **Architectural Decision Records (ADR)**, ghi lại những quyết định kiến trúc quan trọng cùng với bối cảnh, phương án đã cân nhắc và trade-off được chấp nhận.

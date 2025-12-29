@@ -1,15 +1,3 @@
 # Quickstart
 
-Hướng dẫn bắt đầu nhanh cho nhà phát triển.
-
-## Cài đặt
-
-```bash
-npm install
-```
-
-## Sử dụng
-
-```bash
-npm run dev
-```
+Hướng dẫn **onboarding nhanh** cho developer mới: cài đặt môi trường, chạy hệ thống ở local và thực hiện luồng chức năng cơ bản đầu tiên.
